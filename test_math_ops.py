@@ -10,6 +10,7 @@ class TestMathOps(unittest.TestCase):
     def test_subtract(self):
         self.assertEqual(sub_num(10, 5), 5)
         self.assertEqual(sub_num(15, 7), 8)
+        self.assertEqual(sub_num(15, 12), 3)
 
 if __name__ == '__main__':
     unittest.main()
